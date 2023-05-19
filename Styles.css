@@ -1,0 +1,248 @@
+            @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+            
+            .sidebar {
+                /* background-color: rgb(93, 206, 78); */
+                width: 14vw;
+                font-family: 'Kanit', sans-serif;
+                height: 780px;
+            }
+            
+            .sidebar nav {
+                padding: 24px;
+                font-size: 17px;
+                height: 100bh;
+                margin-top: -89px;
+            }
+            
+            .sidebar nav li {
+                list-style: none;
+                font-size: 20px;
+                padding-top: 68px;
+                color: rgb(255, 255, 255);
+            }
+            
+            .main {
+                /* background: yellow; */
+                width: 150vw;
+            }
+            
+            .container {
+                display: flex;
+                background-image: url("A5.png");
+            }
+            
+            .infocontainer {
+                /* background-color: rgb(200, 236, 40); */
+                height: 22vh;
+                width: 95vh;
+                margin: 144px auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .hello {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 55px;
+                color: rgb(255, 245, 245);
+                /* text-shadow: black; */
+            }
+            
+            .name {
+                font-family: 'Kanit', sans-serif;
+                font-size: 35px;
+                color: white;
+                /* text-shadow: black; */
+            }
+            
+            .about {
+                font-family: 'Abel', sans-serif;
+                font-size: 27px;
+                color: rgb(255, 255, 255);
+                /* text-shadow: black; */
+            }
+            
+            .talent {
+                font-family: 'Quicksand', sans-serif;
+                color: white;
+                text-shadow: black;
+            }
+            
+            .devpic img {
+                width: 17vw;
+                margin: initial;
+                height: 33vh;
+            }
+            
+            .devinfo {
+                align-items: flex-start;
+                display: flex;
+                flex-direction: column;
+                /* align-self: center; */
+                font-size: 20px;
+                padding-left: 0px;
+                PADDING-TOP: 57px;
+            }
+            
+            .buttons button {
+                font-size: 15px;
+                border-radius: 26px;
+                background: rgb(113, 219, 63);
+                color: rgb(255, 255, 255);
+                padding: 7px;
+                cursor: pointer;
+            }
+            
+            .buttons button:hover {
+                background: rgb(170, 202, 162);
+                text-shadow: red;
+            }
+            
+            .buttons {
+                margin-top: 32px;
+            }
+            
+            .sidebar nav li a {
+                color: rgb(235, 235, 235);
+                text-decoration: none;
+            }
+            
+            .contactform h2 {
+                font-family: 'Quicksand', sans-serif;
+                color: white;
+                padding: 88px;
+                font-size: 35px;
+                text-align: center;
+            }
+            
+            .contactform {
+                text-align: center;
+                padding: 90px;
+            }
+            
+            .email {
+                font-family: 'Rubic', sans-serif;
+                padding: 34px;
+                margin-left: -90px;
+            }
+            
+            .pswd {
+                font-family: 'Rubic', sans-serif;
+                margin-left: -61px;
+            }
+            
+            .ckb {
+                font-family: 'Rubic', sans-serif;
+                font-size: 15px;
+                padding: 33px;
+            }
+            
+            .introbook {
+                color: white;
+            }
+            
+            .logo {
+                margin-top: -53px;
+                width: 11vw;
+            }
+            
+            .aboutme {
+                font-family: 'Kanit', sans-serif;
+            }
+            
+            .para {
+                font-size: 19px;
+                font-family: 'Kanit', sans-serif;
+            }
+            
+            .h1 {
+                margin-top: 75px;
+                font-size: 35px;
+            }
+            
+            .h2 {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 25px;
+            }
+            
+            .button2 {
+                font-size: 15px;
+                border-radius: 26px;
+                background: rgb(113, 219, 63);
+                color: rgb(255, 255, 255);
+                padding: 7px;
+                cursor: pointer;
+            }
+            
+            .button2:hover {
+                background: rgb(170, 202, 162);
+                text-shadow: red;
+            }
+            
+            .connect {
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .connect a {
+                height: 100px;
+                width: 100px;
+                background-color: rgb(140, 192, 55);
+                border-radius: 50px;
+                margin: 10px;
+                box-shadow: 1px 4px 2px 2px;
+                line-height: 128px;
+                margin-left: 70px;
+                text-align: center;
+            }
+            
+            .connect a i {
+                font-size: 50px;
+                transition: all 0.3s linear;
+            }
+            
+            .connect a:hover i {
+                transform: scale(1.4);
+            }
+            
+            .fa-instagram {
+                color: rgb(247, 247, 247);
+            }
+            
+            .fa-linkedin {
+                color: rgb(0, 38, 255);
+            }
+            
+            .fa-facebook {
+                color: mediumblue;
+            }
+            
+            .fa-youtube {
+                color: rgb(221, 43, 19);
+            }
+            
+            .gmail {
+                text-align: right;
+                font-family: 'Kanit', sans-serif;
+                margin: -142px;
+                margin-top: 240px;
+            }
+            
+            .note {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 15px;
+            }
+            
+            .jv {
+                font-family: 'Kanit', sans-serif;
+                font-size: 20px;
+            }
